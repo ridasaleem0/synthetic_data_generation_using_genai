@@ -92,7 +92,7 @@ This comprehensive score reflects the overall similarity between the real and sy
   - square_foot_area: 89.99%
   - oed_construction_code: 98.80%
 
-- Number of Violations: 0.
+- **Number of Violations: 0**
 This indicates that all constraints (e.g., policy_end_date being after policy_start_date) have been perfectly adhered to in the synthetic data.
 
 ## Additional Notes
