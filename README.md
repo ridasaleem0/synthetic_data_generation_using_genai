@@ -72,12 +72,13 @@ between construction_description and oed_construction_code.
 ### Data Validity and Structure
 The Gaussian Copula Synthesizer demonstrated the highest performance based on the evaluation metrics.
 
-- Overall Validity and Structure Score: 99.81%. 
+- Overall Validity and Structure Score: 99.81%
+
 This combined score underscores the high fidelity of the synthetic data in terms of both individual data points and their interrelationships.
   - Data Validity Score: 99.62%
   - Data Structure Score: 100%
 
-- Overall Quality Score: 89.96%. 
+- Overall Quality Score: 89.96%  
 This comprehensive score reflects the overall similarity between the real and synthetic data in terms of both column distributions and pairwise relationships.
   - Column Shapes Score: 95.39%
   - Column Pair Trends Score: 84.53%
@@ -92,7 +93,7 @@ This comprehensive score reflects the overall similarity between the real and sy
   - square_foot_area: 89.99%
   - oed_construction_code: 98.80%
 
-- **Number of Violations: 0**
+- Number of Violations: 0  
 This indicates that all constraints (e.g., policy_end_date being after policy_start_date) have been perfectly adhered to in the synthetic data.
 
 ## Additional Notes
