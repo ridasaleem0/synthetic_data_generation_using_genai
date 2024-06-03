@@ -21,7 +21,7 @@ Before running the script, ensure you have the following installed:
    ```
 
 2. **Download the Data:**
-   Place your `mle_test_data.csv` file in the root directory of the repository.
+   Place your `mle_test_data.csv` file in the root directory of the folder.
 
 3. **Run the Script:**
    Execute the Python script `generate_synthetic_data.py`:
