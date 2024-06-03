@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script demonstrates the process of generating synthetic data using multiple synthesizers available in the SDV (Synthetic Data Vault) library. The script experiments with `GaussianCopulaSynthesizer`, `CTGANSynthesizer`, `CopulaGANSynthesizer`, and `TVAESynthesizer` to create synthetic datasets based on the characteristics and patterns observed in the provided `mle_test_data.csv` file. Each synthesizer is evaluated against the original data to assess its effectiveness in replicating key statistical properties and relational dependencies.
+This Python script demonstrates the process of generating synthetic data using multiple state of the art machine learning synthesizers available in the SDV (Synthetic Data Vault) library. The script experiments with `GaussianCopulaSynthesizer`, `CTGANSynthesizer`, `CopulaGANSynthesizer`, and `TVAESynthesizer` to create synthetic datasets based on the characteristics and patterns observed in the provided `mle_test_data.csv` file. Each synthesizer is evaluated against the original data to assess its effectiveness in replicating key statistical properties and relational dependencies.
 
 ## Prerequisites
 
