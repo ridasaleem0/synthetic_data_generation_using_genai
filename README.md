@@ -53,6 +53,22 @@ Before running the script, ensure you have the following installed:
 - The script saves the generated synthetic data for each synthesizer to separate CSV files (`synthetic_data_<synthesizer_name>.csv`) in the root directory.
 - Evaluation results and visualizations are displayed during script execution for each synthesizer.
 
+## Best Performing Model
+Rigorous training and experimentation ensured that the GaussianCopulaSynthesizer was effective in
+generating synthetic data that closely resembled the statistical patterns and dependencies observed in the
+mle_test_data.csv. It excelled in preserving the marginal distributions of individual variables while
+capturing the linear correlations between them using Gaussian copulas. This approach ensured that the
+synthetic data maintained the integrity of the original data structure, making it suitable for scenarios
+where maintaining data coherence and dependency relationships is critical.
+1. The temporal coherence of the synthetic data was assessed by verifying that the policy_end_date
+consistently follows the policy_start_date, thereby maintaining logical consistency in temporal ordering.
+2. A thorough comparison of statistical patterns was performed, focusing on key numerical variables such as
+sum_insured and square_foot_area. This comparison confirmed that the synthetic data closely mirrored the
+distributional characteristics observed in the original test data, indicating robustness in replicating
+statistical properties
+3. the coherence within each row of synthetic data was scrutinized, particularly concerning the alignment
+between construction_description and oed_construction_code.
+
 ## Additional Notes
 
 - Adjust parameters in the script (e.g., epochs for CTGANSynthesizer) as needed for your specific dataset and requirements.
